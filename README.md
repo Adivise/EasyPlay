@@ -4,12 +4,15 @@
 
 ## Requirement **GOSUMEMORY** NOT #STREAMCOMPANION
 
+[DL NODE.JS](https://nodejs.org/en/download/) need version 13.0.0 - xx.x.x
 [DL GOSUMEMORY](https://github.com/l3lackShark/gosumemory)
 [TMI OAUTH](https://twitchapps.com/tmi/)
 
 ## No Requirement EXE VERSION
 
 **STAY WAITING SOON...**
+
+## TUTORAIL UPCOMING...
 
 ## Installation
 
