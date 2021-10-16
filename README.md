@@ -22,7 +22,7 @@ After installation finishes please run `gosumemory.exe` first and start the bot.
 
 ## Configuration
 
-Copy or Rename `.env.example` to `.env` and fill out the values:
+Copy or Rename `example.env` to `.env` and fill out the values:
 
 ```env
 TWITCH_BOT_USERNAME=Nanotect_
