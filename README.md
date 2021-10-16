@@ -10,11 +10,7 @@
 
 [TMI OAUTH](https://twitchapps.com/tmi/)
 
-## No Requirement EXE VERSION
-
-**STAY WAITING SOON...**
-
-## TUTORAIL UPCOMING...
+## TUTORIAL UPCOMING...
 
 ## Installation
 
