@@ -18,7 +18,7 @@ git clone https://github.com/Adivise/osu-twitchbot
 cd osu-twitchbot
 npm install
 ```
-After installation finishes please run `gosumemory.exe` first and start the bot. `Run #Start.bat` on the second!
+After installation finishes please run `gosumemory.exe` first and start the bot. `Run #Start.bat` on the second! #but don't forget remember must open osu!
 
 ## Configuration
 
