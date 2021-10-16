@@ -5,7 +5,7 @@
 ## Requirement **GOSUMEMORY** NOT #STREAMCOMPANION
 
 [DL GOSUMEMORY](https://github.com/l3lackShark/gosumemory)
-
+[TMI OAUTH](https://twitchapps.com/tmi/)
 
 ## No Requirement EXE VERSION
 
@@ -18,7 +18,6 @@ git clone https://github.com/Adivise/osu-twitchbot
 cd osu-twitchbot
 npm install
 ```
-After installation finishes please run `gosumemory.exe` first and start the bot. `Run #Start.bat` on the second! #but don't forget remember must open osu!
 
 ## Configuration
 
@@ -39,6 +38,8 @@ BPM= BPM:
 DL=| 🔗 DL:
 SKIN= 🔧 CURRENT USE SKIN:
 ```
+
+After installation finishes please run `gosumemory.exe` first and start the bot. `Run #Start.bat` on the second! #but don't forget remember must open osu!
 
 ## Picture
 ![see](https://i.imgur.com/ySgM02I.png)
