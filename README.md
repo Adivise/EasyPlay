@@ -1,7 +1,15 @@
 ## OSU!TWITCHBOT
 
-## REQUIREMENT **GOSUMEMORY** NOT #STREAMCOMPANION
+![see](https://i.imgur.com/8KjKrv3.jpg)
+
+## Requirement **GOSUMEMORY** NOT #STREAMCOMPANION
+
 [DL GOSUMEMORY](https://github.com/l3lackShark/gosumemory)
+
+
+## No Requirement EXE VERSION
+
+**STAY WAITING SOON...**
 
 ## Installation
 
@@ -498,3 +506,4 @@ SKIN= 🔧 CURRENT USE SKIN:
     }
 }
 ```
+Thank for [l3lackShark](https://github.com/l3lackShark)
