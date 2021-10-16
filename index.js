@@ -38,7 +38,7 @@ async function onMessageHandler(target, context, msg, self) {
     const mods = menu.mods.str;
 
     client.say(target, 
-      `${process.env.TITLE} ${title} ${process.env.MODS} ${mods} | ${star} ${process.env.STAR} ${process.env.AR} ${ar} ${process.env.CS} ${cs} ${process.env.OD} ${od} ${process.env.HP} ${hp} ${process.env.BPM} ${bpm} ${process.env.DL} (https://osu.ppy.sh/beatmapsets/${link})`
+      `${process.env.TITLE} ${title} ${process.env.MODS} ${mods} | ${star} ${process.env.STAR} ${process.env.AR} ${ar} ${process.env.CS} ${cs} ${process.env.OD} ${od} ${process.env.HP} ${hp} ${process.env.BPM} ${bpm} ${process.env.DL} (https://osu.ppy.sh/beatmapsets/${link})` //<=== you can use // to disabled and use the buttom
       //`⏯ TITLE: ${title} 🎮 MODS: ${mods} | ${star} ⭐ | 🔩 AR: ${ar} CS: ${cs} OD: ${od} HP: ${hp} BPM: ${bpm} | 🔗 DL: (https://osu.ppy.sh/beatmapsets/${link})`
       );
     console.log(`+ ${target} use ${commandName} command`);
@@ -50,7 +50,7 @@ async function onMessageHandler(target, context, msg, self) {
     const skin = settings.folders.skin;
 
     client.say(target, 
-      `${process.env.SKIN} ${skin}`
+      `${process.env.SKIN} ${skin}` //<=== you can use // to disabled and use the buttom
       //`🎲 CURRENT USE SKIN: ${skin}`
       );
 
