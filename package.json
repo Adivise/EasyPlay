@@ -1,0 +1,17 @@
+{
+  "name": "osubot",
+  "version": "1.0.3",
+  "description": "commandbot osu!bm & skin??",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Adivise",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "node-fetch": "^2.6.0",
+    "tmi.js": "^1.2.1"
+  }
+}
