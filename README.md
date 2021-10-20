@@ -1,4 +1,4 @@
-## OSU!TWITCHBOT
+## GOSU!TWITCHBOT
 
 ![see](https://i.imgur.com/8KjKrv3.jpg)
 
