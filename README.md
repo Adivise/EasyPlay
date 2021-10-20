@@ -15,8 +15,8 @@
 ## Installation
 
 ```
-git clone https://github.com/Adivise/osu-twitchbot
-cd osu-twitchbot
+git clone https://github.com/Adivise/gosu-twitchbot
+cd gosu-twitchbot
 npm install
 ```
 
