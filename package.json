@@ -1,14 +1,13 @@
 {
-  "name": "gosu-twichbot",
-  "version": "2.0.0",
-  "description": "commandbot osu!np & skin??",
+  "name": "osus",
+  "version": "2.0.5",
+  "description": "get osu! nowplaying with gosumemory in live stream on twitch",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "author": "Adivise",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "dependencies": {
     "node-fetch": "^2.6.0",
     "tmi.js": "^1.8.5"

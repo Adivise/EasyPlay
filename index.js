@@ -1,14 +1,18 @@
 const tmi = require("tmi.js");
 const fetch = require("node-fetch");
 const { USERNAME, OAUTH, CHANNEL, PREFIX } = require("./config.json");
-const string = require("./translate/en.json")
+const string = require("./languages/en.json")
 
 let opts = {
+  connection: {
+    reconnect: true,
+    secure: true
+  },
   identity: {
     username: USERNAME,
     password: OAUTH,
   },
-  channels: [CHANNEL],
+    channels: [CHANNEL],
 };
 
 console.log(`Starting bot...`);
@@ -16,8 +20,6 @@ console.log(`Starting bot...`);
 const client = new tmi.client(opts);
 
 client.on("message", onMessageHandler);
-client.on("connected", onConnectedHandler);
-client.on("disconnected", onDisconnectedHandler);
 
 client.connect();
 
@@ -88,13 +90,4 @@ async function onMessageHandler(target, context, msg, self) {
 
     console.log(`+ ${target} use ${commandName} command`);
   }
-}
-
-function onConnectedHandler(addr, port) {
-  console.log(`+ Connected to ${addr}:${port}`);
-}
-
-function onDisconnectedHandler(reason) {
-  console.log(`- Disconnected: ${reason}`);
-  process.exit(1);
 }
