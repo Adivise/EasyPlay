@@ -1,20 +1,14 @@
-## READ
+## Requirement
 
-Please using `#Start.bat` for auto reconnecting!
-
-## Requirement **GOSUMEMORY** NOT #STREAMCOMPANION
-
-[DL NODE.JS VERSION 16.0.0+](https://nodejs.org/en/download/)
-
-[DL GOSUMEMORY](https://github.com/l3lackShark/gosumemory)
-
-[TMI OAUTH](https://twitchapps.com/tmi/)
+1. Node.js **[Download](https://nodejs.org/en/download/)**
+2. Gosumemory **[Download](https://github.com/l3lackShark/gosumemory)**
+3. TMI OAUTH **[Click Here](https://twitchapps.com/tmi/)**
 
 ## Installation
 
 ```
-git clone https://github.com/Adivise/gosu-twitchbot
-cd gosu-twitchbot
+git clone https://github.com/Adivise/Osus
+cd osus
 npm install
 ```
 
