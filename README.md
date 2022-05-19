@@ -1,34 +1,63 @@
-## Requirement
+## 📑 Short Feature
+- [x] Request Song
+- [x] Check Current Skin Use
+- [x] Nowplaying 
+- [x] Check PP When FC THIS MAP! 
+- [x] Easy to use!
 
-1. Node.js **[Download](https://nodejs.org/en/download/)**
-2. Gosumemory **[Download](https://github.com/l3lackShark/gosumemory)**
-3. TMI OAUTH **[Click Here](https://twitchapps.com/tmi/)**
+## 🚨 Have a Problem
 
-## Installation
+✈ Join Discord:  [NanoSpace ♪♪](https://discord.gg/SNG3dh3MbR)
+   mention me in chat #general or #javascript and ask problem okay! 👌
+
+## 📎 Requirements
+
+1. Node.js v16+ **[Download](https://nodejs.org/en/download/)**
+2. TMI Oauth **[Click Here](https://twitchapps.com/tmi/)**
+3. Gosumemory **[Download](https://github.com/l3lackShark/gosumemory)**
+4. Osu IRC **[Click Here](https://osu.ppy.sh/p/irc)**
+
+## 📚 Installation
 
 ```
 git clone https://github.com/Adivise/Osus
-cd osus
+cd Osus
 npm install
 ```
 
-## Configuration
+After installation finishes you can use `node .` to start the bot. or `Run Start.bat`
 
-Copy or Rename `config.json.example` to `config.json` and fill out the values:
+## 📄 Configuration
 
-```json
-{
-    "PREFIX": "!",
-    "USERNAME": "BOT_USERNAME",
-    "OAUTH": "BOT_OAUTH",
-    "CHANNEL": "TARGET_CHANNEL"
-}
+Copy or Rename `.env.example` to `.env` and fill out the values:
+
+```.env
+# Bot
+PREFIX=!
+
+# Twitch https://twitchapps.com/tmi/
+CHANNEL=nanotect_
+USERNAME=adivise
+OAUTH=oauth:123456789
+
+# Osu! https://osu.ppy.sh/p/irc
+OSU_NAME=prilz
+OSU_PASS=dfasdfadf
 ```
 
-After installation finishes please run `gosumemory.exe` first and start the bot. `Run #Start.bat` on the second! #but don't forget remember must open osu!
+## 🔩 Features & Commands
 
-## Picture
-![see](https://i.imgur.com/ySgM02I.png)
-![see](https://i.imgur.com/M6KFAsP.png)
+> Note: The default prefix is '!'
 
-Thank for api [l3lackShark](https://github.com/l3lackShark)
+> Your can settings all in Folder `Settings`
+
+> Optional: [] | Required: ()
+
+💫 **General Commands!** 
+- `!request (link)` - Request Song
+- `!skin` - Check Current SKin
+- `!ppfc` - Check PP THIS MAP WHEN FULLCOMBO
+- `!nowplaying` - Check Nowplaying
+
+## 📝 Credits
+Developed by [Adivise](https://github.com/Adivise)
