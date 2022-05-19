@@ -1,5 +1,0 @@
-{
-    "BEATMAP": "⏯ TITLE: {title} 🎮 MODS: {mods} | {star} ⭐ | 🔩 AR: {ar} CS: {cs} OD: {od} HP: {hp} BPM: {bpm} | 🔗 DL: (https://osu.ppy.sh/beatmapsets/{link}#osu/{rarity})",
-    "SKIN": "🔧 CURRENT USE SKIN: {skin}",
-    "PERFORMANCE" : "✅ Performance Points | ⭐ 100%: {ppfc}pp | 1️⃣ 99%: {nightynight}pp | 2️⃣ 98%: {nightyeight}pp | 3️⃣ 97%: {nightyseven}pp | 4️⃣ 96%: {nightysix}pp | 5️⃣ 95%: {nightyfive}pp "
-}
