@@ -1,8 +1,8 @@
 ## 📑 Short Feature
 - [x] Request Song
-- [x] Check Current Skin Use
-- [x] Nowplaying 
-- [x] Check PP When FC THIS MAP! 
+- [x] Check Current Skin Equip
+- [x] See Current Nowplaying
+- [x] Check PerfermancePoint When FullCombo
 - [x] Easy to use!
 
 ## 🚨 Have a Problem
@@ -56,7 +56,7 @@ OSU_PASS=dfasdfadf
 💫 **General Commands!** 
 - `!request (link)` - Request Song
 - `!skin` - Check Current SKin
-- `!ppfc` - Check PP THIS MAP WHEN FULLCOMBO
+- `!ppfc` - Check PerfermancePoint When FullCombo
 - `!nowplaying` - Check Nowplaying
 
 ## 📝 Credits
