@@ -2,6 +2,7 @@ const tmi = require("tmi.js");
 const { Collection } = require("@discordjs/collection");
 const config = require("./settings/config.js");
 const { I18n } = require("locale-parser");
+const { BanchoClient } = require("bancho.js");
 
 let options = {
   connection: {
@@ -15,18 +16,29 @@ let options = {
   channels: [config.CHANNEL],
 };
 
-console.log(`[INFO] Connecting to Twitch`);
-
 process.on('unhandledRejection', error => console.log(error));
 process.on('uncaughtException', error => console.log(error));
 
-const twitch = new tmi.client(options);
+const client = new tmi.client(options);
 
-twitch.config = require("./settings/config.js");
-twitch.owner = config.OWNER;
-twitch.i18n = new I18n(twitch.config.LANGUAGE);
+client.config = require("./settings/config.js");
+client.owner = config.OWNER;
+client.i18n = new I18n(config.LANGUAGE);
 
-["aliases", "commands"].forEach(x => twitch[x] = new Collection());
-["loadCommands", "loadEvents"].forEach(x => require(`./handlers/${x}`)(twitch));
+const bancho = new BanchoClient({ username: config.OSU_NAME, password: config.OSU_PASS });
 
-twitch.connect();
+client.bancho = bancho;
+
+/// Load Twitch Package
+["aliases", "commands"].forEach(x => client[x] = new Collection());
+["loadCommands", "loadEvents", "loadBancho"].forEach(x => require(`./handlers/${x}`)(client));
+
+/// Start Bancho Client
+bancho.connect().then(() => {
+  console.log("[INFO] Connected to Bancho!");
+});
+
+/// Start Twitch Client
+client.connect().then(() => {
+  console.log("[INFO] Connected to Twitch!");
+});

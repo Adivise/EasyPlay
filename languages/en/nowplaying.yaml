@@ -1,3 +1,1 @@
-nowplaying_msg: "⏯ MAP: %{title} 🎮 MODS: %{mods} | %{star} ⭐ | 🔩 AR: %{ar} CS: %{cs} OD: %{od} HP: %{hp} BPM: %{bpm} | 🔗 DL: (https://osu.ppy.sh/beatmapsets/%{link}#osu/%{rarity})"
-ppfc_msg: "✅ Performance Points | ⭐ 100%: %{ppfc}pp | 99%: %{nightynight}pp | 98%: %{nightyeight}pp | 97%: %{nightyseven}pp | 96%: %{nightysix}pp | 95%: %{nightyfive}pp "
-skin_msg: "🔧 Current Skin: %{skin}"
+message: "⏯ MAP: %{title} 🎮 MODS: %{mods} | %{star} ⭐ | 🔩 AR: %{ar} CS: %{cs} OD: %{od} HP: %{hp} BPM: %{bpm} | 🔗 DL: (https://osu.ppy.sh/beatmapsets/%{link}#osu/%{rarity})"

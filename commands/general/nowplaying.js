@@ -6,8 +6,7 @@ module.exports = {
         name: "nowplaying",
         aliases: ["np"],
     }, 
-    run: async (twitch, channel, tags, args) => {
-
+    run: async (client, channel, tags, args, language) => {
         const { menu } = await fetch(`http://127.0.0.1:24050/json`).then(response => response.json()); //<== requirement gosumemory to working!
         const title = menu.bm.metadata.title; // this all api wrapper
         const ar = menu.bm.stats.AR;
@@ -20,7 +19,7 @@ module.exports = {
         const mods = menu.mods.str;
         const rarity = menu.bm.id;
     
-        twitch.say(channel, twitch.i18n.get("en", "nowplaying", "nowplaying_msg", {
+        client.say(channel, client.i18n.get(language, "nowplaying", "message", {
             title: title,
             ar: ar,
             cs: cs,

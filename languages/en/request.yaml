@@ -1,0 +1,1 @@
+message: "Song: %{args} Requested By: %{user}"
