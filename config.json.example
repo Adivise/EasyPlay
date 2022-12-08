@@ -1,0 +1,14 @@
+{
+    "apiKey": "YOUR_API_KEY",
+    "twitch": {
+        "connection": {
+            "reconnect": true,
+            "secure": true
+        },
+        "identity": {
+            "username": "Nanotect_",
+            "password": "YOUR_TMI_OAUTH"  
+        },
+        "channels": ["nanotect_"]
+    }
+}

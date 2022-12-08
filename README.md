@@ -1,63 +1,60 @@
-## 📑 Short Feature
-- [x] Request Song
-- [x] Check Current Skin Equip
-- [x] See Current Nowplaying
-- [x] Check PerfermancePoint When FullCombo
+<p align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=SpacePlay&fontSize=80&fontAlignY=35&animation=twinkling&fontColor=gradient"/> </a> 
+</p>
+
+<p align="center"> 
+  <a href="https://discord.gg/SNG3dh3MbR" target="_blank"> <img src="https://discordapp.com/api/guilds/903043706410643496/widget.png?style=banner2"/> </a> 
+</p>
+
+<p align="center"> 
+  <a href="https://ko-fi.com/nanotect" target="_blank"> <img src="https://ko-fi.com/img/githubbutton_sm.svg"/> </a> 
+</p>
+
+## 📑 Feature
+- [x] Get Nowplaying
+- [x] Lightweight
 - [x] Easy to use!
-
-## 🚨 Have a Problem
-
-✈ Join Discord:  [NanoSpace ♪♪](https://discord.gg/SNG3dh3MbR)
-   mention me in chat #general or #javascript and ask problem okay! 👌
 
 ## 📎 Requirements
 
-1. Node.js v16+ **[Download](https://nodejs.org/en/download/)**
-2. TMI Oauth **[Click Here](https://twitchapps.com/tmi/)**
-3. Gosumemory **[Download](https://github.com/l3lackShark/gosumemory)**
-4. Osu IRC **[Click Here](https://osu.ppy.sh/p/irc)**
+- [x] Node.js **[Download](https://nodejs.org/en/download/)**
+- [x] TMI Oauth **[Click Here](https://twitchapps.com/tmi/)**
 
 ## 📚 Installation
 
 ```
-git clone https://github.com/Adivise/Osus
-cd Osus
+git clone https://github.com/Adivise/SpacePlay
+cd SpacePlay
 npm install
 ```
 
-After installation finishes you can use `node .` to start the bot. or `Run Start.bat`
+After installation finishes you can use `node .` to start the bot.
 
 ## 📄 Configuration
 
-Copy or Rename `.env.example` to `.env` and fill out the values:
+Copy or Rename `config.json.example` to `config.json` and fill out the values:
 
-```.env
-# Bot
-PREFIX=!
+- [ ] Don't forget to run `injector/https.exe` to bot work!
 
-# Twitch https://twitchapps.com/tmi/
-CHANNEL=nanotect_
-USERNAME=adivise
-OAUTH=oauth:123456789
-
-# Osu! https://osu.ppy.sh/p/irc
-OSU_NAME=prilz
-OSU_PASS=dfasdfadf
+```.json
+{
+    "apiKey": "YOUR_API_KEY",
+    "twitch": {
+        "connection": {
+            "reconnect": true,
+            "secure": true
+        },
+        "identity": {
+            "username": "Nanotect_",
+            "password": "YOUR_TMI_OAUTH"  
+        },
+        "channels": ["nanotect_"]
+    }
+}
 ```
 
-## 🔩 Features & Commands
+## ❣ Contributors
 
-> Note: The default prefix is '!'
-
-> Your can settings all in Folder `Settings`
-
-> Optional: [] | Required: ()
-
-💫 **General Commands!** 
-- `!request (link)` - Request Song
-- `!skin` - Check Current SKin
-- `!ppfc` - Check PerfermancePoint When FullCombo
-- `!nowplaying` - Check Nowplaying
-
-## 📝 Credits
-Developed by [Adivise](https://github.com/Adivise)
+<a href="https://github.com/Adivise/SpaceTime/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Adivise/SpacePlay" />
+</a>

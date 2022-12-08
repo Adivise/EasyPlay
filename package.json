@@ -1,7 +1,7 @@
 {
-  "name": "osus",
-  "version": "3.0.0",
-  "description": "get osu! nowplaying with gosumemory in live stream on twitch & request song",
+  "name": "spaceplay",
+  "version": "1.0.1",
+  "description": "get nowplaying send to twitch chat",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,10 +9,6 @@
   "author": "Adivise",
   "license": "Apache-2.0",
   "dependencies": {
-    "@discordjs/collection": "^0.6.0",
-    "bancho.js": "^0.9.7",
-    "dotenv": "^16.0.1",
-    "locale-parser": "^1.1.2",
     "node-fetch": "^2.6.0",
     "tmi.js": "^1.8.5"
   }
