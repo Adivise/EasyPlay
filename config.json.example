@@ -10,5 +10,8 @@
             "password": "YOUR_TMI_OAUTH"  
         },
         "channels": ["nanotect_"]
-    }
+    },
+    "host": "127.0.0.1",
+    "port": "24050",
+    "socket": "playing"
 }
