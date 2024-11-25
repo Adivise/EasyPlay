@@ -34,11 +34,19 @@ After installation finishes you can use `node .` to start the bot.
 Don't forget to run `memory/https.exe` to bot work
 
 **Q:** *What is https.exe file?*
+
 **A:** *It just a same from official build, but i remove some useless code not use in my bot*
 
 If your scare of my **exe** file you can use
 from official build here: **[gosumemory](https://github.com/l3lackShark/gosumemory/releases)**
 **dont forget to change ip + port and socket to matching same office build**
+
+Here is official ip:
+```.json
+"host": "127.0.0.1",
+"port": "24050",
+"socket": "json"
+```
 
 ## 📄 Configuration
 
