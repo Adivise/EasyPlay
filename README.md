@@ -24,18 +24,25 @@
 
 ```
 git clone https://github.com/Adivise/EasyPlay
-cd SpacePlay
+cd EasyPlay
 npm install
 ```
 
 After installation finishes you can use `node .` to start the bot.
 
+# ‼️ Must Read 
+Don't forget to run `memory/https.exe` to bot work
+
+**Q:** *What is https.exe file?*
+**A:** *It just a same from official build, but i remove some useless code not use in my bot*
+
+If your scare of my **exe** file you can use
+from official build here: **[gosumemory](https://github.com/l3lackShark/gosumemory/releases)**
+**dont forget to change ip + port and socket to matching same office build**
+
 ## 📄 Configuration
 
 Copy or Rename `config.json.example` to `config.json` and fill out the values:
-
-- [ ] Don't forget to run `injector/https.exe` to bot work!
-
 ```.json
 {
     "apiKey": "YOUR_API_KEY",
@@ -49,7 +56,10 @@ Copy or Rename `config.json.example` to `config.json` and fill out the values:
             "password": "YOUR_TMI_OAUTH"  
         },
         "channels": ["nanotect_"]
-    }
+    },
+    "host": "127.0.0.1",
+    "port": "24050",
+    "socket": "playing"
 }
 ```
 
